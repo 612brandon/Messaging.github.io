@@ -11,22 +11,21 @@
       Basic Chat
     </div>
 
-    <div class="chat-messages">
+    <div class="chat-messages" id="chatMessages">
       <div class="message other">
         Hey! This is a basic chat layout.
       </div>
       <div class="message user">
         Nice, it looks clean.
       </div>
-      <div class="message other">
-        There’s no real functionality yet—just the UI.
-      </div>
     </div>
 
     <div class="chat-input-area">
-      <input type="text" placeholder="Type a message..." disabled />
-      <button disabled>Send</button>
+      <input id="chatInput" type="text" placeholder="Type a message..." />
+      <button id="sendBtn">Send</button>
     </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
