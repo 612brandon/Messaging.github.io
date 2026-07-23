@@ -1,7 +1,8 @@
 const input = document.getElementById("chatInput");
 const sendBtn = document.getElementById("sendBtn");
 const chatMessages = document.getElementById("chatMessages");
-
+let signupName = "Alex";
+document.querySelector(".chat-header").textContent = signupName;
 function sendMessage() {
   const text = input.value.trim();
   if (text === "") return;
