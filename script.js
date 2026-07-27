@@ -14,10 +14,9 @@ function sendMessage() {
 
   chatMessages.appendChild(msg);
 
-  // Auto-scroll
   chatMessages.scrollTop = chatMessages.scrollHeight;
 
-  // Clear input
+
   input.value = "";
 }
 
